@@ -20,4 +20,4 @@ def get_salary():
     return render_template("index.html", salary=predict)
 
 if __name__=="__main__":
-    app.run(host=0.0.0.0)
+    app.run(host='0.0.0.0')
